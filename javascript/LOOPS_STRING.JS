@@ -49,12 +49,22 @@
 // }
 
 // practice
-let n=0;
-for ( let i=0; i<=100;i++){
-    if (n%2==0){
-        console.log("n",n)
-    }
-    else( ) (
-        
-    )
+// to print even no 1-100
+
+// for ( let n=0; n<=100;n++){
+//     if (n%2!==0){
+//         console.log("n =",n);
+//     }
+// }
+
+// practice 2 
+// to create a game of random no guess
+
+let gameNum = 23;
+
+let userNum = prompt("Guess the Game Number");
+
+while (userNum !== gs) {
+    
 }
+console.log(userNum);
