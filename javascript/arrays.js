@@ -16,12 +16,15 @@
 // console.log(`avg marks of the class = ${avg}`);
 
 // practice question
-let prices = [250,645,300,900,50];
+let items = [250, 645, 300, 900, 50];
 
- for( let val of items){
-   let finalprice =val/10;
+let i = 0;
+ for ( let val of items){
+   let offer = val / 10;
+   items[i] = items[i] - offer;
+   console.log('value after offer = ${items[i]}');
+   i++;
  }
-   console.log(`store final price after applying offer ${finalprice}`);
 
 
 
