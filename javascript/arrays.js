@@ -49,7 +49,7 @@
 // marks.splice(1,2,3,4);
 
 // practice
-let companies = ["bloomberg","microsoft","uber","google","ibm","netflix"];
+// let companies = ["bloomberg","microsoft","uber","google","ibm","netflix"];
 // console.log(companies);
 
 // remove 1st company(pop-> end delete & shift->start delete or slice)
@@ -59,4 +59,4 @@ let companies = ["bloomberg","microsoft","uber","google","ibm","netflix"];
 // companies.splice(2,1,"ola");
 
 // to add amazon at the end (push->end unshift->start)
-companies.push("Amazon");
+// companies.push("Amazon");
