@@ -38,9 +38,51 @@
 
 // or 
 
-let divs = document.querySelectorAll(".box");
-let idx = 1;
-for (div of divs) {
-    div.innerText = `new unique value ${idx}`;
-    idx++;
-}
+// let divs = document.querySelectorAll(".box");
+// let idx = 1;
+// for (div of divs) {
+//     div.innerText = `new unique value ${idx}`;
+//     idx++;
+// }
+
+// attributes (additional information) (get & set)
+
+// getAttribute
+// let div = document.querySelector("div");
+// console.log(div);
+
+// let para =document.querySelector("p");
+// console.log(para.getAttribute("class"));
+
+// setAttribute
+// let para = document.querySelector("p");
+// console.log(para.setAttribute("class", "1234"));
+
+// let div = document.querySelector("div");
+// div.style.backgroundColor = "purple";
+// div.style.color = "white";
+// div.innerText= "Hello"
+
+// dom manipulation (first create the item and then add)
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "click me!";
+// console.log(newBtn);
+
+// let div =  document.querySelector("div");
+// div.append(newBtn); //for insert button in the last
+
+//  let div =  document.querySelector("div");
+// div.prepend(newBtn); //for insert button in the top
+// or
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML = "<i>Hii, this is div</i>";
+
+// document.querySelector("body").prepend(newHeading);
+
+// to remove
+// let para = document.querySelector("p");
+// para.remove();
+
+// practice question : 1
+let btn = document.createElement("button");
+btn.innerText = "click me"
