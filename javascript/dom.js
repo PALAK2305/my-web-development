@@ -84,5 +84,12 @@
 // para.remove();
 
 // practice question : 1
-let btn = document.createElement("button");
-btn.innerText = "click me"
+// let btn = document.createElement("button");
+// btn.innerText = "click me";
+// btn.style.backgroundColor = "red";
+// btn.style.color ="white";
+// document.querySelector("body").prepend(btn);
+
+// // practice question : 2
+
+// let para = document.querySelector("p");
