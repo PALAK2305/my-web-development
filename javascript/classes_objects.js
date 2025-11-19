@@ -90,29 +90,90 @@
 // let obj =  new Child();
 
 // eg2
-class Person {
-    constructor(name) {
-        this.species = "homo sapiens";
-        this.name = name;
-    }
+// class Person {
+//     constructor(name) {
+//         this.species = "homo sapiens";
+//         this.name = name;
+//     }
 
-    eat() {
-        console.log("eat");
-    }
-}
+//     eat() {
+//         console.log("eat");
+//     }
+// }
 
-class Engineer extends Person {
-    constructor(name) { 
-        super(name); //to invoke parent class constructor
-    }
+// class Engineer extends Person {
+//     constructor(name) { 
+//         super(name); //to invoke parent class constructor
+//     }
 
-    work() {
-        super.eat();
-        console.log("solve problems, build Something");
-    }
-}
+//     work() {
+//         super.eat();
+//         console.log("solve problems, build Something");
+//     }
+// }
 
-let engobj = new Engineer("Palak");
+// let engobj = new Engineer("Palak");
 
 
-// Super keyword - The super keyword is used to call the constructor of its parent class to access the parent's properties and methods. 
+// Super keyword - The super keyword is used to call the constructor of its parent class to access the parent's properties and methods.  
+
+// practice
+// let Data = "Secret information";
+
+// class User {
+//    constructor(name, email){
+//     this.name = name;
+//     this.email = email; 
+//    }
+//    viewData() {
+//     console.log("data" , Data);
+//    }
+// }
+
+// class admin extends User {
+//     constructor(name, email){
+//         super(name,email);
+//     }
+//     editdata() {
+//        Data = "Some new value"; 
+//     }
+// }
+
+// let student1 = new User("palak","p@gmail.com");
+// let student2 = new User("Payal","payal@gmail.com");
+// let admin1 =  new admin("admin", "admin@gmail.com");
+
+
+
+
+// error Handling -: try-catch
+// try{
+//     ...normal code
+// } catch {err} { //err is error object
+//     ...handling error
+// }
+
+// example
+// let a = 5;
+// let b = 10;
+// console.log("a =",a); 
+// console.log("b =",b); 
+// console.log("a + b =",a+b); 
+// console.log("a + b =",a+b); 
+// console.log("a + b =",a+c); //c is not defined error
+// console.log("a + b =",a+b); 
+
+// or 
+
+// let a = 5;
+// let b = 10;
+// console.log("a =",a); 
+// console.log("b =",b); 
+// console.log("a + b =",a+b); 
+// console.log("a + b =",a+b); 
+// try{
+//     console.log("a + b =",a+c); //c is not defined error
+// } catch (err) {
+//     console.log(err);
+// }
+// console.log("a + b =",a+b); 
